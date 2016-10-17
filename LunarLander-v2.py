@@ -10,15 +10,15 @@ hidden_layer1 = 200  #number of hidden layers on 1
 hidden_layer2 = 200 #number of hidden layers on 2
 hidden_layer3 = 200 #number of hidden layers on 3
 #hidden_layer4 = 5 #number of hidden layers on 4
-batch_number = 32
-gamma = 0.99
-num_of_ticks_between_q_copies = 1000
-explore_decay = 0.1
+batch_number = 2000
+gamma = 0.999
+num_of_ticks_between_q_copies = 500
+explore_decay = 0.99995
 min_explore = 0.02
-max_steps = 199
-max_episodes = 1000
+max_steps = 500
+max_episodes = 5000
 memory_size = 200000
-learning_rate = 0.00025 #1e-3
+learning_rate = 1e-3 #1e-3=0.04978706836  0.00025#
 
 
 #setup enviroment
